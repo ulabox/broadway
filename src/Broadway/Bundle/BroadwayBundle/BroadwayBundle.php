@@ -80,7 +80,5 @@ class BroadwayBundle extends Bundle
      */
     public function registerCommands(Application $application)
     {
-        $application->add(new SchemaEventStoreCreateCommand());
-        $application->add(new SchemaEventStoreDropCommand());
     }
 }
